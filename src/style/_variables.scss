@@ -1,0 +1,45 @@
+$color_white: #ffffff;
+$color_white6: rgba(255, 255, 255, 0.06);
+$color_white60: rgba(255, 255, 255, 0.6);
+$color_blue: #0075ff;
+$color_black: #000000;
+$color_bg: #1e1e22;
+
+$font-size0: 12px;
+$font-size1: 18px;
+$font-size2: 24px;
+$font-size3: 112px;
+$font-weight_bold: 700;
+$font-weight_normal: 400;
+
+$desktop_padding: 60px;
+$mobile_padding: 30px;
+
+// .shadow {
+//   background: #c4c4c4;
+//   box-shadow: 0px 4px 250px rgba(0, 0, 0, 0.55);
+// }
+
+.video_section {
+  background-position: center;
+  background-size: cover;
+  padding: 0 $desktop_padding;
+}
+
+.video_section_header {
+  display: inline-block;
+  font-size: $font-size3;
+  font-weight: $font-weight_bold;
+  color: $color_white;
+}
+
+.video_section_slogan {
+  margin-top: 12px;
+  color: $color_white;
+  font-size: $font-size2;
+  font-weight: $font-weight_normal;
+}
+
+.video_section_button {
+  margin-top: 32px;
+}

@@ -1,0 +1,18 @@
+@import '../../style/variables';
+
+.menu_item {
+  font-size: $font-size1;
+  font-weight: $font-weight_normal;
+  cursor: pointer;
+}
+
+// a:active {
+//   font-weight: $font-weight_bold;
+// }
+
+.more_item {
+  padding-right: 14px;
+  background-image: url(./more_icon.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}

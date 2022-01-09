@@ -1,0 +1,12 @@
+.user_bar {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user_bar_icon {
+  cursor: pointer;
+  width: 24px;
+  height: 20px;
+}
