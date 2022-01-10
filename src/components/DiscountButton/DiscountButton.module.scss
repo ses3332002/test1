@@ -1,0 +1,19 @@
+@import '../../style/variables';
+
+.discount_button {
+  width: 66px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
+  background: $color_discount_red;
+  color: $color_white;
+  font-size: $font-size1;
+  font-family: inherit;
+  font-weight: $font-weight_bold;
+  cursor: pointer;
+}

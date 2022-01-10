@@ -3,10 +3,42 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  button {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    border: none;
+    padding: 0;
+  }
 }
 
-.user_bar_icon {
-  cursor: pointer;
-  width: 24px;
-  height: 20px;
+.search_icon {
+  background: url(./user_icons.svg#search-view) no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+.heart_icon {
+  background: url(./user_icons.svg#heart-view) no-repeat;
+  background-size: 24px 20px;
+  background-position: center;
+}
+
+.basket_icon {
+  background: url(./user_icons.svg#basket-view) no-repeat;
+  background-size: 24px 25px;
+  background-position: center;
+}
+
+.user_icon {
+  background: url(./user_icons.svg#user-view) no-repeat;
+  background-size: 28px 28px;
+  background-position: center;
+}
+
+.kebab_icon {
+  background: url(./user_icons.svg#kebab-view) no-repeat;
+  background-size: 4px 20px;
+  background-position: center;
 }

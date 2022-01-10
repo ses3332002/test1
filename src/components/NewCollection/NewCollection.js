@@ -1,6 +1,5 @@
-import { Button } from '../Button/Button';
+import { ShopButton } from '../ShopButton/ShopButton';
 import styles from './NewCollection.module.scss';
-import video_buttons from './video_buttons.svg';
 
 export function NewCollection() {
   return (
@@ -9,11 +8,12 @@ export function NewCollection() {
       <div className={styles.slogan}>
         Inspired by city explorers. Made to move. Built for tomorrow
       </div>
-      <Button />
-      <div className={styles.video_buttons}>
-        <object type="image/svg+xml" data={video_buttons}>
-          video_buttons
-        </object>
+      <ShopButton />
+      <div className={styles.video_buttons_container}>
+        <div className={styles.video_buttons}>
+          <button className={styles.size_button}></button>
+          <button className={styles.mute_button}></button>
+        </div>
       </div>
     </section>
   );

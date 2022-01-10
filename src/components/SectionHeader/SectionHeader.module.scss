@@ -1,0 +1,44 @@
+@import '../../style/variables';
+
+.section_header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    display: inline-block;
+    color: $color_bg;
+    font-size: $font-size4;
+    font-weight: $font-weight_bold;
+  }
+}
+
+.scroll_buttons {
+  width: 80px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: $color_white6;
+    cursor: pointer;
+  }
+}
+
+.scroll_bw {
+  background: url(./arrows.svg#bw-view) no-repeat;
+  background-position: center;
+  background-size: 8px 14px;
+}
+
+.scroll_fw {
+  background: url(./arrows.svg#fw-view) no-repeat;
+  background-position: center;
+  background-size: 8px 14px;
+}

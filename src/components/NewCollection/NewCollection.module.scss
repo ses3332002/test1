@@ -18,10 +18,38 @@
 
 .shop_button {
   @extend .video_section_button;
-  // margin-top: 32px;
+}
+
+.video_buttons_container {
+  margin-top: 91px;
+  text-align: right;
 }
 
 .video_buttons {
-  margin-top: 91px;
-  text-align: right;
+  width: 80px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+
+  button {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background-position: center;
+  }
+}
+
+.size_button {
+  background: url(./video_buttons.svg#size-view) no-repeat;
+  background-size: 18px 18px;
+}
+
+.mute_button {
+  background: url(./video_buttons.svg#mute-view) no-repeat;
+  background-size: 27px 22px;
 }

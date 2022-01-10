@@ -2,6 +2,7 @@ import { Header } from '../Header/Header';
 import { NewCollection } from '../NewCollection/NewCollection';
 import { NewinTown } from '../NewInTown/NewInTown';
 import { Announcement } from '../Announcement/Announcement';
+import { TrendingNow } from '../TrendingNow/TrendingNow';
 
 export function App() {
   let moreItem = 'More';
@@ -11,6 +12,9 @@ export function App() {
       <Header menuItems={menuItems} moreItem={moreItem} />
       <NewCollection />
       <Announcement />
+      <TrendingNow />
+      <Categories />
+      <DontMiss />
       <NewinTown />
 
       {/* <Footer /> */}
