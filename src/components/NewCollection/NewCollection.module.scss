@@ -3,7 +3,7 @@
 .new_collection {
   @extend .video_section;
   height: 772px;
-  background-image: url('./new_collection.gif');
+  // background-image: url('./new_collection.gif');
 }
 
 .section_header {
@@ -16,8 +16,9 @@
   @extend .video_section_slogan;
 }
 
-button {
+.shop_button {
   @extend .video_section_button;
+  // margin-top: 32px;
 }
 
 .video_buttons {

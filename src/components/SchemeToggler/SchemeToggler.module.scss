@@ -1,4 +1,37 @@
+@import '../../style/variables';
+
 .scheme_toggler {
+  box-sizing: border-box;
   width: 82px;
   height: 40px;
+  border-radius: 20px;
+  padding: 4px 6px 4px 4px;
+  background-color: $color_white60;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.dark_scheme_button,
+.light_scheme_button {
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.dark_scheme_button {
+  background: url(./sprite.svg#cloud-view) no-repeat;
+  background-position: center;
+  // background-size: cover;
+}
+
+.light_scheme_button {
+  background: url(./sprite.svg#cloud-view-blue) no-repeat;
+  background-position: center;
+  // background-size: cover;
 }

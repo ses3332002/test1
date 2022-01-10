@@ -3,7 +3,7 @@
 .new_in_town {
   @extend .video_section;
   height: 725px;
-  background-image: url('./new_in_town.gif');
+  // background-image: url('./new_in_town.gif');
 }
 
 .section_header {
@@ -16,6 +16,7 @@
   @extend .video_section_slogan;
 }
 
-button {
+.shop_button {
   @extend .video_section_button;
+  // margin-top: 32px;
 }

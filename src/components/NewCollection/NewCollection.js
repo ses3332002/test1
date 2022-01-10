@@ -9,7 +9,7 @@ export function NewCollection() {
       <div className={styles.slogan}>
         Inspired by city explorers. Made to move. Built for tomorrow
       </div>
-      <Button>Shop</Button>
+      <Button />
       <div className={styles.video_buttons}>
         <object type="image/svg+xml" data={video_buttons}>
           video_buttons
