@@ -1,8 +1,10 @@
 import { Header } from '../Header/Header';
 import { NewCollection } from '../NewCollection/NewCollection';
-import { NewinTown } from '../NewInTown/NewInTown';
+import { NewInTown } from '../NewInTown/NewInTown';
 import { Announcement } from '../Announcement/Announcement';
 import { TrendingNow } from '../TrendingNow/TrendingNow';
+import { DontMiss } from '../DontMiss/DontMiss';
+import { Categories } from '../Categories/Categories';
 
 export function App() {
   let moreItem = 'More';
@@ -15,7 +17,7 @@ export function App() {
       <TrendingNow />
       <Categories />
       <DontMiss />
-      <NewinTown />
+      <NewInTown />
 
       {/* <Footer /> */}
     </div>

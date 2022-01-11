@@ -1,0 +1,8 @@
+@import '../../style/variables';
+
+.tape {
+  @extend .styled_scroll;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
