@@ -5,6 +5,7 @@ import { Announcement } from '../Announcement/Announcement';
 import { TrendingNow } from '../TrendingNow/TrendingNow';
 import { DontMiss } from '../DontMiss/DontMiss';
 import { Categories } from '../Categories/Categories';
+import { Footer } from '../Footer/Footer';
 
 export function App() {
   let moreItem = 'More';
@@ -18,8 +19,7 @@ export function App() {
       <Categories />
       <DontMiss />
       <NewInTown />
-
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

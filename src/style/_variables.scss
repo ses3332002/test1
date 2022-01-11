@@ -2,10 +2,13 @@ $color_white: #ffffff;
 $color_section_bg: #f5f5f5;
 $color_white6: rgba(0, 0, 0, 0.06);
 $color_white60: rgba(0, 0, 0, 0.6);
+$color_white30: rgba(255, 255, 255, 0.3);
+$color_bullet: #c4c4c4;
 $color_blue: #0075ff;
-$color_sky_blue: #3c7dff;
+$color_sky_blue: rgba(60, 125, 255, 0.2);
 $color_black: #000000;
 $color_bg: #1e1e22;
+$color_bg6: rgba(30, 30, 34, 0.6);
 $color_discount_red: #fe006b;
 $color_new_green: #21d804;
 
@@ -48,25 +51,38 @@ $card_padding: 24px;
   font-weight: $font-weight_normal;
 }
 
-// .video_section_button {
-//   margin-top: 32px;
-// }
-
 .styled_scroll {
+  scrollbar-width: thin;
   &::-webkit-scrollbar {
-    width: 8px;
-    background-color: #f9f9fd;
+    height: 8px;
   }
 
   &::-webkit-scrollbar-thumb {
     border-radius: 8px;
-    background-color: #18aaaa;
+    background-color: $color_blue;
   }
 
   &::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    background-color: #f9f9fd;
+    background-color: $color_white6;
   }
+}
+
+.label {
+  height: 32px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
+  color: $color_white;
+  font-size: $font-size1;
+  font-family: inherit;
+  font-weight: $font-weight_bold;
 }

@@ -1,0 +1,57 @@
+@import '../../style/variables';
+
+footer {
+  //   height: 282px;
+}
+
+.footer_nav {
+  padding: $section_padding;
+  box-sizing: border-box;
+  //   height: 226px;
+  background-color: $color_white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+  }
+
+  .config {
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .stone_tyle {
+      font-size: $font-size2;
+      font-weight: $font-weight_normal;
+      color: $color_bg;
+
+      span {
+        font-weight: $font-weight_bold;
+        color: $color_blue;
+      }
+    }
+  }
+
+  .social {
+    // padding: $section_padding;
+    // box-sizing: border-box;
+    min-width: 200px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.footer_info {
+  padding: 0 $section_padding;
+  height: 56px;
+  background-color: $color_section_bg;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

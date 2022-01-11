@@ -1,0 +1,15 @@
+@import '../../style/variables';
+
+.info_bar {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    font-size: $font-size0;
+    font-weight: $font-weight_normal;
+    text-decoration: none;
+    color: $color_white60;
+  }
+}

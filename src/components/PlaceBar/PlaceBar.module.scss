@@ -1,4 +1,6 @@
-.social_bar {
+@import '../../style/variables';
+
+.place_bar {
   width: 79px;
   height: 24px;
   line-height: 24px;
@@ -9,7 +11,7 @@
   // justify-content: space-between;
 
   h4 {
-    font-size: $font-size2;
+    font-size: $font-size0;
     font-weight: $font-weight_normal;
     color: $color_white60;
   }
@@ -19,11 +21,11 @@
     content: '';
     left: 0;
     top: 0;
-    bottom: 0;
-    width: 16px;
-    // height: 18px;
+    // bottom: 0;
+    width: 20px;
+    height: 28px;
     background: url(./place.svg) no-repeat;
-    background-size: 16px 18px;
+    background-size: 20px 28px;
     background-position: center;
   }
 }

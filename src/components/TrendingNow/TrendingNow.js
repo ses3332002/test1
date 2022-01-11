@@ -1,4 +1,4 @@
-import { CategoryCard } from '../CategoryCard/CategoryCard';
+import { ProductCard } from '../ProductCard/ProductCard';
 import { SectionHeader } from '../SectionHeader/SectionHeader';
 import { Tape } from '../Tape/Tape';
 import styles from './TrendingNow.module.scss';
@@ -11,10 +11,39 @@ export function TrendingNow(params) {
     <section className={styles.tranding_now}>
       <SectionHeader text="Trendind Now" />
       <Tape>
-        <CategoryCard title="Test" width={427} height={475} imgSrc={img1} />
-        <CategoryCard title="Test" width={427} height={475} imgSrc={img2} />
-        <CategoryCard title="Test" width={427} height={475} imgSrc={img3} />
-        <CategoryCard title="Test" width={427} height={475} imgSrc={img2} />
+        <ProductCard
+          title="Overhit with belt"
+          category="Women's outerwear"
+          price="€23.99"
+          oldPrice="€55"
+          label="discount"
+          bullets={true}
+          imgSrc={img1}
+        />
+        <ProductCard
+          title="Dress"
+          category="Women's dresses"
+          price="€9.99"
+          label="new"
+          bullets={true}
+          imgSrc={img2}
+        />
+        <ProductCard
+          title="Top"
+          category="Women's underwear"
+          price="€16"
+          label="new"
+          bullets={false}
+          imgSrc={img3}
+        />
+        <ProductCard
+          title="Dress"
+          category="Women's dresses"
+          price="€9.99"
+          label="new"
+          bullets={true}
+          imgSrc={img2}
+        />
       </Tape>
     </section>
   );
