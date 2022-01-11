@@ -1,0 +1,37 @@
+@import '../../style/variables';
+
+.social_bar {
+  width: 146px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  button {
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    background-color: $color_sky_blue;
+  }
+}
+
+.in_icon {
+  background: url(./social.svg#in-view) no-repeat;
+  background-size: 16px 16px;
+  background-position: center;
+}
+
+.fb_icon {
+  background: url(./social.svg#fb-view) no-repeat;
+  background-size: 10px 16px;
+  background-position: center;
+}
+
+.insta_icon {
+  background: url(./social.svg#insta-view) no-repeat;
+  background-size: 16px 165px;
+  background-position: center;
+}

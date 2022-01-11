@@ -2,7 +2,6 @@ import { ShopButton } from '../ShopButton/ShopButton';
 import styles from './CategoryCard.module.scss';
 
 export function CategoryCard({ title, width, height, imgSrc }) {
-  console.log(imgSrc);
   let image = `url(${imgSrc})`;
   return (
     <div
