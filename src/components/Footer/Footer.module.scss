@@ -8,20 +8,26 @@
   align-items: flex-start;
   justify-content: space-between;
 
+  @media screen and (max-width: $tablet_width) {
+    padding: $section_padding_mobile;
+  }
+
   a {
     text-decoration: none;
   }
 
   .config {
-    min-width: 220px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 1;
 
     .stone_tyle {
       font-size: $font-size2;
       font-weight: $font-weight_normal;
       color: $color_bg;
+      margin: 10px;
 
       span {
         font-weight: $font-weight_bold;
@@ -46,4 +52,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: $color_section_bg;
+
+  @media screen and (max-width: $tablet_width) {
+    padding: 0 $section_padding_mobile;
+  }
 }

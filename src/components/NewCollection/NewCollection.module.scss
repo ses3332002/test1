@@ -3,13 +3,22 @@
 .new_collection {
   @extend .video_section;
   height: 772px;
-  background-image: url('./new_collection.gif');
+  background-image: url('./new_collection_.gif');
+
+  @media screen and (max-width: $tablet_width) {
+    height: 413px;
+  }
 }
 
 .section_header {
   @extend .video_section_header;
   margin-top: 249px;
   max-width: 510px;
+
+  @media screen and (max-width: $tablet_width) {
+    margin-top: 127px;
+    max-width: 250px;
+  }
 }
 
 .slogan {
@@ -19,6 +28,10 @@
 .video_buttons_container {
   margin-top: 91px;
   text-align: right;
+
+  @media screen and (max-width: $tablet_width) {
+    display: none;
+  }
 }
 
 .video_buttons {

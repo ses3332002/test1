@@ -3,13 +3,24 @@
 .new_in_town {
   @extend .video_section;
   height: 725px;
-  background-image: url('./new_in_town.gif');
+  background-image: url('./new_in_town_.gif');
+
+  @media screen and (max-width: $tablet_width) {
+    height: 565px;
+  }
 }
 
 .section_header {
   @extend .video_section_header;
   margin-top: 242px;
   max-width: 375px;
+  @media screen and (max-width: $tablet_width) {
+    margin-top: 317px;
+    max-width: 200px;
+  }
+  .no_wrap {
+    white-space: nowrap;
+  }
 }
 
 .slogan {

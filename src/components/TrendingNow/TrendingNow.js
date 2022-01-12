@@ -44,6 +44,13 @@ export function TrendingNow() {
           bullets={true}
           imgSrc={img2}
         />
+        <ProductCard
+          title="Top"
+          category="Women's underwear"
+          price="€16"
+          bullets={true}
+          imgSrc={img3}
+        />
       </Tape>
     </section>
   );

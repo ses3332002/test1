@@ -6,7 +6,11 @@ export function NewCollection() {
     <section className={styles.new_collection}>
       <h2 className={styles.section_header}>New Collection</h2>
       <div className={styles.slogan}>
-        Inspired by city explorers. Made to move. Built for tomorrow
+        <span class={styles.no_wrap}>Inspired by city explorers. </span>
+        <span> </span>
+        <span class={styles.no_wrap}>Made to move. </span>
+        <span> </span>
+        <span class={styles.no_wrap}>Built for tomorrow</span>
       </div>
       <ShopButton />
       <div className={styles.video_buttons_container}>

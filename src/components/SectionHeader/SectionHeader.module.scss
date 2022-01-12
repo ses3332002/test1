@@ -5,13 +5,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: $section_padding;
+  padding: 0 $section_padding;
+
+  @media screen and (max-width: $tablet_width) {
+    padding: 0 $section_padding_mobile;
+  }
 
   h2 {
     display: inline-block;
     color: $color_bg;
     font-size: $font-size4;
     font-weight: $font-weight_bold;
+    position: relative;
+  }
+  @media screen and (max-width: $tablet_width) {
+    h2::after {
+      position: absolute;
+      right: -20px;
+      top: 3px;
+      content: '>';
+    }
   }
 }
 
@@ -29,6 +42,10 @@
     border: none;
     background-color: $color_white6;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: $tablet_width) {
+    display: none;
   }
 }
 

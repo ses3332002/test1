@@ -1,6 +1,6 @@
-import { CategoryCard } from '../CategoryCard/CategoryCard';
+import { DontMissCard } from '../DontMissCard/DontMissCard';
 import { SectionHeader } from '../SectionHeader/SectionHeader';
-import { Tape } from '../Tape/Tape';
+import { AdaptiveTape } from '../AdaptiveTape/AdaptiveTape';
 import styles from './DontMiss.module.scss';
 import img1 from './img1.jpg';
 import img2 from './img2.jpg';
@@ -10,16 +10,11 @@ export function DontMiss() {
   return (
     <section className={styles.dont_miss}>
       <SectionHeader text="Don't miss" />
-      <Tape>
-        <CategoryCard
-          title="Special Offer"
-          width={650}
-          height={515}
-          imgSrc={img1}
-        />
-        <CategoryCard title="Unisex" width={650} height={515} imgSrc={img2} />
-        <CategoryCard title="Test" width={650} height={515} imgSrc={img3} />
-      </Tape>
+      <AdaptiveTape>
+        <DontMissCard title="Special Offer" imgSrc={img1} />
+        <DontMissCard title="Unisex" imgSrc={img2} />
+        <DontMissCard title="Dance Collection" imgSrc={img3} />
+      </AdaptiveTape>
     </section>
   );
 }

@@ -2,13 +2,19 @@
 
 .tape {
   @extend .styled_scroll;
-  margin-left: $section_padding;
   display: flex;
   gap: 20px;
   overflow-x: auto;
   padding-bottom: 20px;
+  margin-left: $section_padding;
 
   @media screen and (max-width: $tablet_width) {
     margin-left: $section_padding_mobile;
+  }
+
+  @media screen and (max-width: $mobile_width) {
+    flex-direction: column;
+    gap: 0px;
+    margin-left: 0;
   }
 }

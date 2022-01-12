@@ -18,16 +18,26 @@ $font-size2: 24px;
 $font-size3: 112px;
 $font-size4: 32px;
 $font-size5: 64px;
+$font-size6: 44px;
 $font-weight_bold: 700;
 $font-weight_normal: 400;
 
+$tablet_width: 860px;
+$mobile_width: 375px;
+
 $section_padding: 60px;
+$section_padding_mobile: 16px;
+
 $card_padding: 24px;
 
 .video_section {
   padding: 0 $section_padding;
   background-position: center;
   background-size: cover;
+
+  @media screen and (max-width: $tablet_width) {
+    padding: 0 $section_padding_mobile;
+  }
 }
 
 .video_section_header {
@@ -35,14 +45,30 @@ $card_padding: 24px;
   font-size: $font-size3;
   font-weight: $font-weight_bold;
   color: $color_white;
+
+  @media screen and (max-width: $tablet_width) {
+    font-size: $font-size6;
+  }
 }
 
 .video_section_slogan {
   margin-top: 12px;
   margin-bottom: 32px;
+  box-sizing: border-box;
   font-size: $font-size2;
+  line-height: $font-size2;
   font-weight: $font-weight_normal;
   color: $color_white;
+
+  @media screen and (max-width: $tablet_width) {
+    font-size: $font-size1;
+    margin-bottom: 24px;
+    max-width: 250px;
+  }
+
+  .no_wrap {
+    white-space: nowrap;
+  }
 }
 
 .styled_scroll {
@@ -79,4 +105,17 @@ $card_padding: 24px;
   font-size: $font-size1;
   font-family: inherit;
   font-weight: $font-weight_bold;
+}
+
+.card_section {
+  background-color: $color_section_bg;
+  padding: 0 0 $section_padding 0;
+
+  @media screen and (max-width: $tablet_width) {
+    padding: $section_padding_mobile 0;
+  }
+
+  @media screen and (max-width: $mobile_width) {
+    padding: $section_padding_mobile 0;
+  }
 }

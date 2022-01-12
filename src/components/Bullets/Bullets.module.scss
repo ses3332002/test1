@@ -12,6 +12,10 @@
   align-items: center;
   justify-content: space-between;
   background-color: $color_white30;
+
+  @media screen and (max-width: $tablet_width) {
+    margin: 260px auto 0;
+  }
 }
 
 .bullet {

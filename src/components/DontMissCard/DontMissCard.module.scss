@@ -1,0 +1,29 @@
+@import '../../style/variables';
+
+.dont_miss_card {
+  width: 650px;
+  height: 515px;
+  flex-shrink: 0;
+  padding: $card_padding;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: center;
+
+  @media screen and (max-width: $mobile_width) {
+    width: 100%;
+  }
+
+  h3 {
+    margin-bottom: 12px;
+    font-size: $font-size5;
+    font-weight: $font-weight_bold;
+    color: $color_white;
+
+    @media screen and (max-width: $tablet_width) {
+      font-size: $font-size6;
+    }
+  }
+}

@@ -9,6 +9,11 @@
   height: 475px;
   background-size: cover;
   background-position: center;
+
+  @media screen and (max-width: $tablet_width) {
+    width: 300px;
+    height: 333px;
+  }
 }
 
 .new_label,
@@ -54,6 +59,10 @@
   padding-top: 16px;
   box-sizing: border-box;
   background-color: $color_section_bg;
+
+  @media screen and (max-width: $tablet_width) {
+    width: 300px;
+  }
 }
 
 .main_info,
