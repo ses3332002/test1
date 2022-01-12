@@ -4,7 +4,6 @@
   @extend .styled_scroll;
   display: grid;
   padding-bottom: 20px;
-
   overflow-x: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);

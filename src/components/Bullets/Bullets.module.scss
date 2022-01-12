@@ -1,27 +1,27 @@
 @import '../../style/variables';
 
 .bullets {
-  margin: 400px auto 0;
-  box-sizing: border-box;
   width: 64px;
   height: 16px;
+  margin: 400px auto 0;
+  padding: 4px;
+  box-sizing: border-box;
   border-radius: 50px;
   border: none;
-  padding: 4px;
-  background-color: $color_white30;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: $color_white30;
 }
 
 .bullet {
-  margin: 0;
-  padding: 0;
   width: 8px;
   height: 8px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   border-radius: 50%;
   border: none;
-  box-sizing: border-box;
   background-color: $color_bullet;
   cursor: pointer;
 

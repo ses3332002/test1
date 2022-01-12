@@ -38,9 +38,9 @@
 .like_button {
   width: 24px;
   height: 20px;
-  cursor: pointer;
   border: none;
   padding: 0;
+  cursor: pointer;
   background-color: transparent;
   background-image: url(./heart.svg);
   background-position: center;
@@ -48,12 +48,12 @@
 }
 
 .product_info {
-  background-color: $color_section_bg;
   width: 427px;
   height: 90px;
   padding: 0;
   padding-top: 16px;
   box-sizing: border-box;
+  background-color: $color_section_bg;
 }
 
 .main_info,

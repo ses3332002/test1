@@ -1,13 +1,8 @@
 @import '../../style/variables';
 
-footer {
-  //   height: 282px;
-}
-
 .footer_nav {
   padding: $section_padding;
   box-sizing: border-box;
-  //   height: 226px;
   background-color: $color_white;
   display: flex;
   align-items: flex-start;
@@ -36,9 +31,6 @@ footer {
   }
 
   .social {
-    // padding: $section_padding;
-    // box-sizing: border-box;
-    min-width: 200px;
     height: 140px;
     display: flex;
     flex-direction: column;
@@ -48,10 +40,10 @@ footer {
 }
 
 .footer_info {
-  padding: 0 $section_padding;
   height: 56px;
-  background-color: $color_section_bg;
+  padding: 0 $section_padding;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: $color_section_bg;
 }

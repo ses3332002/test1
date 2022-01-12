@@ -1,15 +1,27 @@
 import { Bullets } from '../Bullets/Bullets';
 import styles from './ProductCard.module.scss';
 
-export function ProductCard({ title, category, price, oldPrice = '', label, bullets, imgSrc }) {
-  let image = `url(${imgSrc})`;
+export function ProductCard({
+  title,
+  category,
+  price,
+  oldPrice = '',
+  label,
+  bullets,
+  imgSrc,
+}) {
+  let imageSrc = `url(${imgSrc})`;
   return (
     <div className={styles.product_card}>
       <div
         className={`${styles.product_view} ${
-          label === 'new' ? styles.new_label : label === 'discount' ? styles.discount_label : ''
+          label === 'new'
+            ? styles.new_label
+            : label === 'discount'
+            ? styles.discount_label
+            : ''
         }`}
-        style={{ backgroundImage: image }}
+        style={{ backgroundImage: imageSrc }}
       >
         <div className={styles.like_button_container}>
           <button className={styles.like_button}></button>

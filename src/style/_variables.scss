@@ -23,17 +23,11 @@ $font-weight_normal: 400;
 
 $section_padding: 60px;
 $card_padding: 24px;
-// $mobile_padding: 30px;
-
-// .shadow {
-//   background: #c4c4c4;
-//   box-shadow: 0px 4px 250px rgba(0, 0, 0, 0.55);
-// }
 
 .video_section {
+  padding: 0 $section_padding;
   background-position: center;
   background-size: cover;
-  padding: 0 $section_padding;
 }
 
 .video_section_header {
@@ -46,9 +40,9 @@ $card_padding: 24px;
 .video_section_slogan {
   margin-top: 12px;
   margin-bottom: 32px;
-  color: $color_white;
   font-size: $font-size2;
   font-weight: $font-weight_normal;
+  color: $color_white;
 }
 
 .styled_scroll {
@@ -69,18 +63,18 @@ $card_padding: 24px;
 }
 
 .label {
-  height: 32px;
-  box-sizing: border-box;
   position: absolute;
   bottom: 12px;
   left: 12px;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4px 8px;
-  border: none;
-  border-radius: 8px;
   color: $color_white;
   font-size: $font-size1;
   font-family: inherit;

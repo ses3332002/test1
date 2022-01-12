@@ -1,23 +1,23 @@
 @import '../../style/variables';
 
 .scheme_toggler {
-  box-sizing: border-box;
   width: 82px;
   height: 40px;
   border-radius: 20px;
   padding: 4px 6px 4px 4px;
-  background-color: $color_white6;
+  box-sizing: border-box;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-shrink: 0;
+  background-color: $color_white6;
 }
 
 .dark_scheme_button,
 .light_scheme_button {
-  padding: 0;
   width: 32px;
   height: 32px;
+  padding: 0;
   border: none;
   border-radius: 50%;
   cursor: pointer;

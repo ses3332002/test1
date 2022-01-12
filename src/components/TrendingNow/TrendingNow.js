@@ -6,7 +6,7 @@ import img1 from './img1.jpg';
 import img2 from './img2.jpg';
 import img3 from './img3.jpg';
 
-export function TrendingNow(params) {
+export function TrendingNow() {
   return (
     <section className={styles.tranding_now}>
       <SectionHeader text="Trendind Now" />

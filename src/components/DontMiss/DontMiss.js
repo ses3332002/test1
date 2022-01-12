@@ -6,7 +6,7 @@ import img1 from './img1.jpg';
 import img2 from './img2.jpg';
 import img3 from './img3.jpg';
 
-export function DontMiss(params) {
+export function DontMiss() {
   return (
     <section className={styles.dont_miss}>
       <SectionHeader text="Don't miss" />
