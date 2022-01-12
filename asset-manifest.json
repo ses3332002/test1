@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3d4d666.css",
+    "main.js": "/static/js/main.879a57d5.js",
+    "static/media/new_collection.gif": "/static/media/new_collection.87d197a8b11a708a359f.gif",
+    "static/media/new_in_town.gif": "/static/media/new_in_town.27945f1102f663d1a04d.gif",
+    "static/media/img1.gif": "/static/media/img1.d73a33cab220de2881a2.gif",
+    "static/media/img1.jpg": "/static/media/img1.1390e2a4327582ba9250.jpg",
+    "static/media/img2.jpg": "/static/media/img2.6bba07515d57541ad181.jpg",
+    "static/media/user_icons.svg": "/static/media/user_icons.7b9e526a88941d6229df.svg",
+    "static/media/img3.jpg": "/static/media/img3.748e6dd6ad0be315050d.jpg",
+    "static/media/img4.jpg": "/static/media/img4.d2ea721d07c7e89e6565.jpg",
+    "static/media/toggler.svg": "/static/media/toggler.8b4b90bfe0f46a38033c.svg",
+    "static/media/video_buttons.svg": "/static/media/video_buttons.b2763409be7f099e305c.svg",
+    "static/media/social.svg": "/static/media/social.c4b62553a72fed26a24b.svg",
+    "static/media/heart.svg": "/static/media/heart.1ce075105a2b77568e80.svg",
+    "static/media/arrows.svg": "/static/media/arrows.290495c82b1b5588bf7d.svg",
+    "index.html": "/index.html",
+    "static/media/place.svg": "/static/media/place.a769b024c718ed04d57e.svg",
+    "static/media/more_icon.svg": "/static/media/more_icon.d92d450312b9d386cdc2.svg",
+    "main.d3d4d666.css.map": "/static/css/main.d3d4d666.css.map",
+    "main.879a57d5.js.map": "/static/js/main.879a57d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3d4d666.css",
+    "static/js/main.879a57d5.js"
+  ]
+}
