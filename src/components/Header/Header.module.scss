@@ -14,6 +14,12 @@
 
   @media screen and (max-width: $tablet_width) {
     padding: 32px $section_padding_mobile 24px;
+    justify-content: flex-end;
     height: 88px;
+
+    div:nth-child(1) {
+      justify-self: flex-start;
+      margin-right: auto;
+    }
   }
 }

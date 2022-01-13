@@ -1,6 +1,64 @@
+@import '../../style/variables';
+
 .nav_bar {
+  flex-shrink: 1;
   width: 518px;
+}
+
+.links_list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 16px;
+}
+
+.hamburger_menu {
+  display: none;
+  position: relative;
+}
+
+@media screen and (max-width: $tablet_width) {
+  .links_list {
+    display: none;
+  }
+
+  .nav_bar {
+    width: auto;
+    order: 3;
+  }
+
+  .hamburger_menu {
+    display: inline-block;
+    background-color: transparent;
+    width: 22px;
+    height: 20px;
+    margin: 16px;
+    margin-right: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hamburger_menu::before {
+    content: '';
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    background-color: $color_bg;
+    box-shadow: 0 7px 0px $color_bg;
+    border-radius: 2px;
+  }
+
+  .hamburger_menu::after {
+    content: '';
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 17px;
+    left: 1px;
+    background-color: $color_bg;
+    border-radius: 2px;
+  }
 }

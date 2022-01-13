@@ -23,6 +23,8 @@ export function Footer() {
         <LinksBar title="About Us" links={aboutLinks} />
         <div className={styles.social}>
           <SocialBar />
+        </div>
+        <div className={styles.shop_button}>
           <ShopButton />
         </div>
       </div>
