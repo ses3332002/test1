@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/test1/static/css/main.2d2714fb.css",
-    "main.js": "/test1/static/js/main.410e1ad9.js",
-    "static/media/new_collection.gif": "/test1/static/media/new_collection.87d197a8b11a708a359f.gif",
-    "static/media/new_in_town.gif": "/test1/static/media/new_in_town.27945f1102f663d1a04d.gif",
-    "static/media/img1.gif": "/test1/static/media/img1.d73a33cab220de2881a2.gif",
+    "main.css": "/test1/static/css/main.6851cbe5.css",
+    "main.js": "/test1/static/js/main.a354df00.js",
+    "static/media/new_collection_.gif": "/test1/static/media/new_collection_.8541c3cd51a9c07c3335.gif",
+    "static/media/new_in_town_.gif": "/test1/static/media/new_in_town_.9ff3509b5a93a872becb.gif",
+    "static/media/img1_.gif": "/test1/static/media/img1_.e3e0aeb8db1e9abc2da9.gif",
     "static/media/img1.jpg": "/test1/static/media/img1.1390e2a4327582ba9250.jpg",
     "static/media/img2.jpg": "/test1/static/media/img2.6bba07515d57541ad181.jpg",
     "static/media/user_icons.svg": "/test1/static/media/user_icons.7b9e526a88941d6229df.svg",
@@ -18,11 +18,11 @@
     "index.html": "/test1/index.html",
     "static/media/place.svg": "/test1/static/media/place.a769b024c718ed04d57e.svg",
     "static/media/more_icon.svg": "/test1/static/media/more_icon.d92d450312b9d386cdc2.svg",
-    "main.2d2714fb.css.map": "/test1/static/css/main.2d2714fb.css.map",
-    "main.410e1ad9.js.map": "/test1/static/js/main.410e1ad9.js.map"
+    "main.6851cbe5.css.map": "/test1/static/css/main.6851cbe5.css.map",
+    "main.a354df00.js.map": "/test1/static/js/main.a354df00.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d2714fb.css",
-    "static/js/main.410e1ad9.js"
+    "static/css/main.6851cbe5.css",
+    "static/js/main.a354df00.js"
   ]
 }
